@@ -1,0 +1,459 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32604 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\unity\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/ue_deneme/clash/Happy_Moon/Happy_Moon_Project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+56649
+Successfully changed project path to: D:/ue_deneme/clash/Happy_Moon/Happy_Moon_Project
+D:/ue_deneme/clash/Happy_Moon/Happy_Moon_Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 98.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path D:/Program Files/unity/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ue_deneme/clash/Happy_Moon/Happy_Moon_Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8033 MB
+    Driver:   31.0.15.3598
+Initialize mono
+Mono path[0] = 'D:/Program Files/unity/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/unity/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/unity/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/unity/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010308 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (648ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009253 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\ue_deneme\clash\Happy_Moon\Happy_Moon_Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\ue_deneme\clash\Happy_Moon\Happy_Moon_Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1190ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (909ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.5 KB). Loaded Objects now: 3806.
+Memory consumption went from 115.3 MB to 115.2 MB.
+Total: 3.233300 ms (FindLiveObjects: 0.275800 ms CreateObjectMapping: 0.273300 ms MarkObjects: 2.576700 ms  DeleteObjects: 0.106800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 280576.012106 seconds.
+  path: Assets/Stylized Lava Materials/Lava02
+  artifactKey: Guid(d53eb81928367ff43987dbb9416df60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava02 using Guid(d53eb81928367ff43987dbb9416df60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3245e369612aebe7eda8064d847b228') in 0.016552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027186 seconds.
+  path: Assets/Stylized Lava Materials/Lava02/M_Lava02.mat
+  artifactKey: Guid(9a526ccb9696d6545b3991e93bfb18bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava02/M_Lava02.mat using Guid(9a526ccb9696d6545b3991e93bfb18bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15afbe32660e2fb18760dfdfb458e07e') in 0.219594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 568.902174 seconds.
+  path: Assets/Tower/Tower.fbx
+  artifactKey: Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Tower.fbx using Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48f774541fe22444d0271ffb2fea5dc') in 0.564221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.265904 seconds.
+  path: Assets/Tower/Tower.fbx
+  artifactKey: Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Tower.fbx using Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04b2d59db1dfdf23dab7762e2e54e54') in 0.556256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.308123 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.010754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.514920 seconds.
+  path: Assets/Stylized Lava Materials/Lava04
+  artifactKey: Guid(ac6b59675e338924389ec0c26567ee73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava04 using Guid(ac6b59675e338924389ec0c26567ee73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b758c337b82f5662b306637c7c0daa') in 0.012492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.498657 seconds.
+  path: Assets/Stylized Lava Materials/Lava03
+  artifactKey: Guid(37a25a87eea4c3949a280b19020afdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava03 using Guid(37a25a87eea4c3949a280b19020afdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3294265380703b4160f7826c5bc66aa') in 0.017591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027390 seconds.
+  path: Assets/Stylized Lava Materials/Lava03/M_Lava03.mat
+  artifactKey: Guid(299166cc9328e484ba27f7c6c60bcc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava03/M_Lava03.mat using Guid(299166cc9328e484ba27f7c6c60bcc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d1f460cbb4682bf92f8a4067126e87') in 0.044036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Stylized Lava Materials/Lava03/T_Lava03_metallic.png
+  artifactKey: Guid(b45c16963ac761d4cac39a870f8efe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava03/T_Lava03_metallic.png using Guid(b45c16963ac761d4cac39a870f8efe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3042ad51e61571358bf144d29153ba9') in 0.035474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized Lava Materials/Lava03/T_Lava03_height.png
+  artifactKey: Guid(ebe988e0fae69904da7059b5c9f618c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava03/T_Lava03_height.png using Guid(ebe988e0fae69904da7059b5c9f618c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf03949d8fe3b11ebdb7b8f98d462fa9') in 0.028992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.260865 seconds.
+  path: Assets/Stylized Lava Materials/Lava04/M_Lava04.mat
+  artifactKey: Guid(530bb4bbf64f6a8498aac9f9a1644e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava04/M_Lava04.mat using Guid(530bb4bbf64f6a8498aac9f9a1644e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5866b7d5679888eed42ec979900232bb') in 0.058987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Lava Materials/Lava04/T_Lava04_metallic.png
+  artifactKey: Guid(1b0eddcd97673004da417fffdd79781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava04/T_Lava04_metallic.png using Guid(1b0eddcd97673004da417fffdd79781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa05d0e53b16184fb99ba1104b45583') in 0.021736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.899258 seconds.
+  path: Assets/Stylized Lava Materials/Lava05
+  artifactKey: Guid(636bdf4a57a028b418fd328bdf9c1965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava05 using Guid(636bdf4a57a028b418fd328bdf9c1965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bdd427b3ad243f5febd1cd611bae5e') in 0.009292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024239 seconds.
+  path: Assets/Stylized Lava Materials/Lava05/M_Lava05.mat
+  artifactKey: Guid(7ba8162d09542e34b9a72bb543447494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava05/M_Lava05.mat using Guid(7ba8162d09542e34b9a72bb543447494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b80ee00fd92e7fe2a561f0a67088f22') in 0.030848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.086591 seconds.
+  path: Assets/Tower/Tower.fbx
+  artifactKey: Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Tower.fbx using Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a08d81aa9ba4aabcbb964d3fa75970') in 0.746002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 239.343679 seconds.
+  path: Assets/Tower/Tower.fbx
+  artifactKey: Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Tower.fbx using Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82772126adfda94a5210034b808cad20') in 0.663179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.430686 seconds.
+  path: Assets/Tower/Tower.fbx
+  artifactKey: Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Tower.fbx using Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af4bcbd6f04734be92fa3ff0d1b7cd1') in 0.731099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.599921 seconds.
+  path: Assets/Tower/M_Lava02.mat
+  artifactKey: Guid(9a526ccb9696d6545b3991e93bfb18bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/M_Lava02.mat using Guid(9a526ccb9696d6545b3991e93bfb18bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed1be7e267ceacfbd9d23148b1f6846') in 0.026686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.046008 seconds.
+  path: Assets/Tower/M_Lava02.mat
+  artifactKey: Guid(9a526ccb9696d6545b3991e93bfb18bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/M_Lava02.mat using Guid(9a526ccb9696d6545b3991e93bfb18bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b991db40ff24c65e9d1e41fb1f08cce') in 0.026837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 357.287893 seconds.
+  path: Assets/Character
+  artifactKey: Guid(84431b7dde645074399171fee32367e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character using Guid(84431b7dde645074399171fee32367e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd4d75f827da15d448a6918c62c67b0') in 0.010336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17002.726385 seconds.
+  path: Assets/Character/Barbarian_Lvl_6_barbar_BaseColor.jpg
+  artifactKey: Guid(ec19948bdca64f24d8c7622dfd00e35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl_6_barbar_BaseColor.jpg using Guid(ec19948bdca64f24d8c7622dfd00e35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1beb2591d056eadfb38f465efd0f9cf5') in 0.051237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.980641 seconds.
+  path: Assets/Character/Stuff.mat
+  artifactKey: Guid(4713fdb94c725e0479cfd309d257a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Stuff.mat using Guid(4713fdb94c725e0479cfd309d257a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31854929d3dec4e5784bfc0a36b3d2b') in 0.021751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.905438 seconds.
+  path: Assets/Character/Barbarian_Lvl_6_Stuff_Normal.jpg
+  artifactKey: Guid(f013483455f28104a9c579e36699b62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl_6_Stuff_Normal.jpg using Guid(f013483455f28104a9c579e36699b62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d7b24341ccf7fdc8f1b00221ffdb00') in 0.024397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.760340 seconds.
+  path: Assets/Character/Stuff 1.mat
+  artifactKey: Guid(08113120287bc234aa9356fe62b2e992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Stuff 1.mat using Guid(08113120287bc234aa9356fe62b2e992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577ed904eaa15664301e02178ae4f1ff') in 0.028192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.393825 seconds.
+  path: Assets/Character/Barbarian_Lvl6.mat
+  artifactKey: Guid(08113120287bc234aa9356fe62b2e992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl6.mat using Guid(08113120287bc234aa9356fe62b2e992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94923851426780d0e70db4789595436') in 0.029943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.868341 seconds.
+  path: Assets/Character/Barbarian_Lvl_6_barbar_Normal.jpg
+  artifactKey: Guid(9c0633adbfec3574d822dea532e37c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl_6_barbar_Normal.jpg using Guid(9c0633adbfec3574d822dea532e37c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60b4229f7b68c90ef8e26d624648541') in 0.020717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.480223 seconds.
+  path: Assets/Character/Barbarian_Lvl_6.fbx
+  artifactKey: Guid(b0b19944242045d47b36e132bddae38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl_6.fbx using Guid(b0b19944242045d47b36e132bddae38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080e734c86d58804cb29ef920ccac32e') in 0.073808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.334172 seconds.
+  path: Assets/Character/Barbarian_Lvl_6.fbx
+  artifactKey: Guid(b0b19944242045d47b36e132bddae38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl_6.fbx using Guid(b0b19944242045d47b36e132bddae38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d72187b1cd24a2457405a8637a52c43') in 0.077564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.535198 seconds.
+  path: Assets/Character/Change.mat
+  artifactKey: Guid(b88abc5586c73984daefafd58dae8bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Change.mat using Guid(b88abc5586c73984daefafd58dae8bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bb4c5290f55f3d7ec405b46a726834') in 0.017098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.673301 seconds.
+  path: Assets/Character/Barbarian_Lvl_6.fbx
+  artifactKey: Guid(b0b19944242045d47b36e132bddae38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl_6.fbx using Guid(b0b19944242045d47b36e132bddae38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525dd89ad9f81bf39c16bb5f64150679') in 0.057800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.143835 seconds.
+  path: Assets/Character/Barbarian_Lvl_6.fbx
+  artifactKey: Guid(b0b19944242045d47b36e132bddae38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl_6.fbx using Guid(b0b19944242045d47b36e132bddae38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67a609ec7effb1b4417ea2b4422fbc7') in 0.058381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 831.643833 seconds.
+  path: Assets/Character/Barbarian_Lvl_6.fbx
+  artifactKey: Guid(b0b19944242045d47b36e132bddae38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl_6.fbx using Guid(b0b19944242045d47b36e132bddae38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a305a3fe020fcdc6cd0d0809b0f68b7') in 0.073833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.050183 seconds.
+  path: Assets/Character/Barbarian_Lvl_6.fbx
+  artifactKey: Guid(b0b19944242045d47b36e132bddae38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl_6.fbx using Guid(b0b19944242045d47b36e132bddae38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49be8d9d1513027db2742626bc33b0a1') in 0.053404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4224.946693 seconds.
+  path: Assets/Character_Lvl6
+  artifactKey: Guid(84431b7dde645074399171fee32367e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Lvl6 using Guid(84431b7dde645074399171fee32367e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41d6d2d35f5ff6d8fe688412cfd2b96') in 0.011716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.808086 seconds.
+  path: Assets/Character/LVL_6
+  artifactKey: Guid(e5b395405020fb84a92a98a776d44ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/LVL_6 using Guid(e5b395405020fb84a92a98a776d44ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a4e06ccd67ba7d33e87c45e04dbd5f') in 0.010982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.376332 seconds.
+  path: Assets/Character/Lvl_1
+  artifactKey: Guid(e72957a03601f3941ad134d25e0107bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1 using Guid(e72957a03601f3941ad134d25e0107bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55d7e864e78d97dc6bc9e03bcf53f6b') in 0.011312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.678344 seconds.
+  path: Assets/Character/Lvl_6
+  artifactKey: Guid(e5b395405020fb84a92a98a776d44ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_6 using Guid(e5b395405020fb84a92a98a776d44ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9223e95953f915ba06aa8dbee78e8684') in 0.010271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.607567 seconds.
+  path: Assets/Character/Lvl_1/Barbarian_Lvl_1_barbar_BaseColor.jpg
+  artifactKey: Guid(0acae264a77f0f24996c35913ba87d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian_Lvl_1_barbar_BaseColor.jpg using Guid(0acae264a77f0f24996c35913ba87d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5250c4a7deb3b4eeadacd29f04a5349a') in 0.026066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Character/Lvl_1/Barbarian_Lvl_1_Stuff_Normal.jpg
+  artifactKey: Guid(b577a4fdceceb5d49889d7f204278175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian_Lvl_1_Stuff_Normal.jpg using Guid(b577a4fdceceb5d49889d7f204278175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc5fdd092adeb53c61683814ba11842') in 0.030615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 203.454996 seconds.
+  path: Assets/Character/Lvl_1/Barbarian.mat
+  artifactKey: Guid(911f96ad2ab9d9342b5181adb67867ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian.mat using Guid(911f96ad2ab9d9342b5181adb67867ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94649201840b0a723094200d94d76300') in 0.017486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.397833 seconds.
+  path: Assets/Character/Lvl_1/Barbarian_Lvl_1_barbar_Normal.jpg
+  artifactKey: Guid(84dbee314c78e5e4a9886ec75f3c742f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian_Lvl_1_barbar_Normal.jpg using Guid(84dbee314c78e5e4a9886ec75f3c742f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fcd6dc0ea18aa70f53be0e766f3bf0') in 0.023662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.123145 seconds.
+  path: Assets/Character/Lvl_1/Barbarian 1.mat
+  artifactKey: Guid(97497ad90c40a0e428d2743476a5a76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian 1.mat using Guid(97497ad90c40a0e428d2743476a5a76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a7a03cdb9a05a0a0dcaa0744b978d6') in 0.194588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.875496 seconds.
+  path: Assets/Character/Lvl_1/Barbarian_Stuff.mat
+  artifactKey: Guid(97497ad90c40a0e428d2743476a5a76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian_Stuff.mat using Guid(97497ad90c40a0e428d2743476a5a76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8028799edd649e1438116d58fe8c0c15') in 0.019183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.772012 seconds.
+  path: Assets/Character/Lvl_1/Barbarian_Lvl_1_Stuff_Normal.jpg
+  artifactKey: Guid(b577a4fdceceb5d49889d7f204278175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian_Lvl_1_Stuff_Normal.jpg using Guid(b577a4fdceceb5d49889d7f204278175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd821d12c32ff4c36bf714fc6ef842501') in 0.019115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.034472 seconds.
+  path: Assets/Character/Lvl_1/Barbarian_Lvl_1.fbx
+  artifactKey: Guid(d820a31e654079a44a32e1c42fd5915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian_Lvl_1.fbx using Guid(d820a31e654079a44a32e1c42fd5915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c7a8df665e5cb30077e270076e94c5') in 0.057772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.901479 seconds.
+  path: Assets/Character/Lvl_1/Barbarian_Lvl_1.fbx
+  artifactKey: Guid(d820a31e654079a44a32e1c42fd5915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian_Lvl_1.fbx using Guid(d820a31e654079a44a32e1c42fd5915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e982a3d57522725c601c616583ade01') in 0.056695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.993462 seconds.
+  path: Assets/Character/Lvl_1/Change_'.mat
+  artifactKey: Guid(265a1b68badc78a4090e87b767c6ae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Change_'.mat using Guid(265a1b68badc78a4090e87b767c6ae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc299283cb2755348fc68e30ac145ef') in 0.014629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.439064 seconds.
+  path: Assets/Character/Lvl_1/Change_2.mat
+  artifactKey: Guid(265a1b68badc78a4090e87b767c6ae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Change_2.mat using Guid(265a1b68badc78a4090e87b767c6ae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca9238c3c32864a6be8361bfa603041') in 0.017176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.923035 seconds.
+  path: Assets/Character/Lvl_1/Barbarian_Lvl_1.fbx
+  artifactKey: Guid(d820a31e654079a44a32e1c42fd5915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian_Lvl_1.fbx using Guid(d820a31e654079a44a32e1c42fd5915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643e3a2aa577449455568f19b4d09f46') in 0.051482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.810419 seconds.
+  path: Assets/Character/Lvl_1/Barbarian_Lvl_1.fbx
+  artifactKey: Guid(d820a31e654079a44a32e1c42fd5915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian_Lvl_1.fbx using Guid(d820a31e654079a44a32e1c42fd5915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469f85e78affc24c1bdfb3f79b1954ca') in 0.051517 seconds 

@@ -1,0 +1,231 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32604 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\unity\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/ue_deneme/clash/Happy_Moon/Happy_Moon_Project
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+56649
+Successfully changed project path to: D:/ue_deneme/clash/Happy_Moon/Happy_Moon_Project
+D:/ue_deneme/clash/Happy_Moon/Happy_Moon_Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 74.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path D:/Program Files/unity/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ue_deneme/clash/Happy_Moon/Happy_Moon_Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8033 MB
+    Driver:   31.0.15.3598
+Initialize mono
+Mono path[0] = 'D:/Program Files/unity/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/unity/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/unity/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/unity/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009221 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (421ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (91ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008100 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\ue_deneme\clash\Happy_Moon\Happy_Moon_Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\ue_deneme\clash\Happy_Moon\Happy_Moon_Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1035ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (770ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.6 KB). Loaded Objects now: 3806.
+Memory consumption went from 115.3 MB to 115.2 MB.
+Total: 3.580200 ms (FindLiveObjects: 0.231800 ms CreateObjectMapping: 0.161500 ms MarkObjects: 3.108500 ms  DeleteObjects: 0.077700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 281203.381086 seconds.
+  path: Assets/Stylized Lava Materials/Lava04/T_Lava04_basecolor.png
+  artifactKey: Guid(8f675aa6c312b9b4ca5a685c881fc761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava04/T_Lava04_basecolor.png using Guid(8f675aa6c312b9b4ca5a685c881fc761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf728fad9886e19f5d1ec1faa70c704') in 0.112866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.911018 seconds.
+  path: Assets/Stylized Lava Materials/Lava05/T_Lava0_basecolor.png
+  artifactKey: Guid(091eb83e1f36425438bc51ecc5b2e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava05/T_Lava0_basecolor.png using Guid(091eb83e1f36425438bc51ecc5b2e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3518dc632ebf3e0c7825f7616a6a7b18') in 0.022568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Stylized Lava Materials/Lava05/T_Lava0_normal.png
+  artifactKey: Guid(14f8a22873eaa76469848d6c6030641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Lava Materials/Lava05/T_Lava0_normal.png using Guid(14f8a22873eaa76469848d6c6030641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb828fd7924726957df77af600d9cae') in 0.054270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 308.570577 seconds.
+  path: Assets/Tower/Tower.fbx
+  artifactKey: Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Tower.fbx using Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7fc09e1e40d2746c65e01dc16e880d') in 0.647578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.424184 seconds.
+  path: Assets/Tower/Tower.fbx
+  artifactKey: Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower/Tower.fbx using Guid(c2c97c30ff11e6c44940fc806d8f527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784cfe84683c4305dfcabfa3db4d4765') in 0.464788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17359.593852 seconds.
+  path: Assets/Character/Barbarian_Lvl_6_barbar_Normal.jpg
+  artifactKey: Guid(9c0633adbfec3574d822dea532e37c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl_6_barbar_Normal.jpg using Guid(9c0633adbfec3574d822dea532e37c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2f52ecdc300e82307ff40eedecd2af') in 0.043136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Character/Barbarian_Lvl_6_Stuff_BaseColor.jpg
+  artifactKey: Guid(82c1acaa24f0bf34d972c31c53e67688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl_6_Stuff_BaseColor.jpg using Guid(82c1acaa24f0bf34d972c31c53e67688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797c4ce373f0b845513601ffc8c51c3c') in 0.026361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Character/Barbarian_Lvl_6_Stuff_Normal.jpg
+  artifactKey: Guid(f013483455f28104a9c579e36699b62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Barbarian_Lvl_6_Stuff_Normal.jpg using Guid(f013483455f28104a9c579e36699b62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e1f165ab4c83769f15dfbd24063fbf') in 0.025010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.706996 seconds.
+  path: Assets/Character/Stuff.mat
+  artifactKey: Guid(4713fdb94c725e0479cfd309d257a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Stuff.mat using Guid(4713fdb94c725e0479cfd309d257a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e0f9216f8f4a3d4bc8280ca4f2c9c0') in 0.055478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5364.096637 seconds.
+  path: Assets/Character/Lvl_1/Barbarian_Lvl_1_barbar_Normal.jpg
+  artifactKey: Guid(84dbee314c78e5e4a9886ec75f3c742f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian_Lvl_1_barbar_Normal.jpg using Guid(84dbee314c78e5e4a9886ec75f3c742f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3beac1b5fd3f6655c6d698f2f3f90b07') in 0.030318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Character/Lvl_1/Barbarian_Lvl_1_Stuff_BaseColor.jpg
+  artifactKey: Guid(bacc48a130bbb9b429405e0bc15e9d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian_Lvl_1_Stuff_BaseColor.jpg using Guid(bacc48a130bbb9b429405e0bc15e9d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc52a12daed609f26cd87753916f05fb') in 0.030663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 223.019006 seconds.
+  path: Assets/Character/Lvl_1/Barbarian.mat
+  artifactKey: Guid(911f96ad2ab9d9342b5181adb67867ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Lvl_1/Barbarian.mat using Guid(911f96ad2ab9d9342b5181adb67867ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95743cdf2c54ac4911da37ed661b0c5a') in 0.192815 seconds 
